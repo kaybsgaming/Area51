@@ -1,6 +1,2 @@
-<cfoutput>
-<h1>#cgi.server_name#</h1>
-<h2>Railo</h2>
-#now()#
-<cfdump var="#server#">
-</cfoutput>
+﻿<h1>CFML</h1>
+<cfoutput><!-- Copyright PracticalPixels and LayerX #year(now())#. All rights reserved. --></cfoutput>

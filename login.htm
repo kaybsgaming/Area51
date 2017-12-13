@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<head>
+    <title>Underdog CMS | Login</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <!-- CSS Global Compulsory -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- CSS Implementing Plugins -->
+    <link rel="stylesheet" href="assets/plugins/line-icons/line-icons.css">
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
+
+
+
+    <!-- CSS Customization -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+	<style id="antiClickjack">body{display:none !important;}</style><!---Anti clickjacking code (OWASP)) --->
+	<script type="text/javascript">
+   if (self === top) {
+       var antiClickjack = document.getElementById("antiClickjack");
+       antiClickjack.parentNode.removeChild(antiClickjack);
+   } else {
+       top.location = self.location;
+   }
+</script>
+</head> 
+
+<body>
+<div class="wrapper">
+    <!--=== Header ===-->    
+    <div class="header">
+        <!-- Topbar -->
+        <div class="topbar">
+            <div class="container">
+              
+    
+       
+            </div>    
+        </div>            
+        <!-- End Navbar -->
+    </div>
+    <!--=== End Header ===-->    
+
+    <!--=== Breadcrumbs ===-->
+    <div class="breadcrumbs">
+        <div class="container pull-left">
+            <h1><img src="/assets/img/black-166x51.png" alt="Logo"></h1>
+        </div><!--/container-->
+    </div><!--/breadcrumbs-->
+    <!--=== End Breadcrumbs ===-->
+
+    <!--=== Content Part ===-->
+    <div class="content">		
+    	<div class="row">
+            <div class="container">
+                <form class="reg-page" role="form" action="/index.cfm" method="post">
+                    <div class="reg-header">            
+                        <h2>Login to your account</h2>
+                    </div>
+
+                    <div class="input-group margin-bottom-20">
+                        <span class="input-group-addon"><i class="icon-envelope"></i></span>
+                        <input type="text" name="j_username"  placeholder="Email" class="form-control" required autofocus>
+                    </div>                    
+                    <div class="input-group margin-bottom-20">
+                        <span class="input-group-addon"><i class="icon-lock"></i></span>
+                        <input type="password" name="j_password" placeholder="Password" class="form-control" required>
+                    </div>                    
+
+                <div class="row">
+                	   <!-- 
+                        <div class="col-md-6 checkbox">
+                            <label><input type="checkbox"> Stay signed in</label>                        
+                        </div>
+						-->
+                        <div class="col-md-6">
+                            <button class="btn btn-default" type="submit">Login</button>                        
+                        </div>
+                    </div>
+                </form>            
+            </div>
+        </div><!--/row-->
+    </div><!--/container-->		
+    <!--=== End Content Part ===-->
+</div><!--/wrapper-->
+
+<!-- JS Global Compulsory -->           
+<script type="text/javascript" src="assets/plugins/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="assets/plugins/jquery/jquery-migrate.min.js"></script>
+<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
+<!-- JS Implementing Plugins -->           
+<script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
+<!-- JS Customization -->
+<script type="text/javascript" src="assets/js/custom.js"></script>
+<!-- JS Page Level -->           
+<script type="text/javascript" src="assets/js/app.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+        App.init();      
+    });
+</script>
+<!--[if lt IE 9]>
+    <script src="assets/plugins/respond.js"></script>
+    <script src="assets/plugins/html5shiv.js"></script>
+    <script src="assets/js/plugins/placeholder-IE-fixes.js"></script>
+<![endif]-->
+
+</body>
+</html> 
+ 
+ 

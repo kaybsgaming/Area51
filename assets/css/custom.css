@@ -1,0 +1,74 @@
+/* Add here all your css styles (customizations) */
+.-railo-dump .label {
+	display: block;
+	font-size: 100%;
+	font-weight: normal;
+	color: #000000;
+	line-height: normal;
+	border-radius: 0px;
+	white-space: normal;
+}
+ 
+.-railo-dump table {
+	margin: 0px;
+}
+
+.b-lazy {
+        -webkit-transition: opacity 500ms ease-in-out;
+           -moz-transition: opacity 500ms ease-in-out;
+             -o-transition: opacity 500ms ease-in-out;
+                transition: opacity 500ms ease-in-out;
+                 max-width: 100%;
+                   opacity: 0;
+    }
+    .b-lazy.b-loaded {
+                   opacity: 1;
+    }
+    
+       .header .mega-menu .equal-height-list h3 { 
+		color: #555;
+		margin: 0 0 5px;
+		font-size: 13px; 
+		font-weight: 400; 
+		padding: 6px 25px 5px; 
+		border-bottom: solid 1px #eee;
+	}
+	
+
+
+.header .dropdown-menu li [class*=" icon-"]{
+	font-size : 18px;
+	padding-right:6px;
+}
+
+.header .dropdown-menu li [class*=" fa-"]{
+	font-size : 18px;
+	padding-right:6px;
+}
+
+.sky-form {
+  box-shadow: none;
+  border: 0px;
+}
+
+.sky-form footer {
+	
+	border-top: 0px 
+}
+
+.container {
+    margin-left: 15px;
+}
+
+.navbar-nav {
+    margin-left: 15px;
+}
+
+.logo {
+	padding: 15px 15px 15px 15px;
+}
+
+.breadcrumbs {
+	margin-bottom:10px;
+}
+
